@@ -1,0 +1,15 @@
+{
+  "name": "qscss",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "QScss: SCSS-preprocessed Qt QSS engineering toolkit",
+  "scripts": {
+    "build:qss": "node scripts/build-qss.mjs",
+    "clean:qss": "node scripts/build-qss.mjs --clean"
+  },
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
+

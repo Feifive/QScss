@@ -1,0 +1,17 @@
+@use "../tokens/theme" as *;
+
+QWidget {
+  background: $color-window;
+  color: $color-text;
+  font-size: $font-size;
+}
+
+QLabel[secondary="true"] {
+  color: $color-muted-text;
+}
+
+QFrame#Panel {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+}

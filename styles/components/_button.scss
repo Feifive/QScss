@@ -1,0 +1,23 @@
+@use "../mixins/controls" as *;
+@use "../tokens/theme" as *;
+
+QPushButton {
+  @include control-frame;
+
+  &:hover {
+    border-color: $color-primary;
+  }
+
+  &:pressed {
+    padding-top: 1px;
+  }
+
+  &[primary="true"] {
+    @include primary-action;
+
+    &:hover {
+      background: $color-primary-hover;
+      border-color: $color-primary-hover;
+    }
+  }
+}

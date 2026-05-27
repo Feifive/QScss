@@ -1,0 +1,12 @@
+@use "../mixins/controls" as *;
+@use "../tokens/theme" as *;
+
+QLineEdit,
+QComboBox {
+  @include control-frame;
+}
+
+QLineEdit:focus,
+QComboBox:focus {
+  border-color: $color-primary;
+}

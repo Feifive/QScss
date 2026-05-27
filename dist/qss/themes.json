@@ -1,0 +1,12 @@
+[
+  {
+    "id": "dark",
+    "name": "Dark",
+    "file": "dark.qss"
+  },
+  {
+    "id": "light",
+    "name": "Light",
+    "file": "light.qss"
+  }
+]

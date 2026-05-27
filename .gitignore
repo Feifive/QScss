@@ -1,0 +1,5 @@
+build*/
+node_modules/
+dist/qss/*.qss
+*.user
+.DS_Store

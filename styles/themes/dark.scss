@@ -1,0 +1,15 @@
+@use "../tokens/theme" with (
+  $color-window: #15171c,
+  $color-surface: #20232a,
+  $color-text: #f2f4f8,
+  $color-muted-text: #aeb7c4,
+  $color-border: #3a404b,
+  $color-primary: #4f8cff,
+  $color-primary-hover: #6ea2ff,
+  $color-primary-text: #07111f,
+  $color-input: #181b21
+);
+
+@use "../components/base";
+@use "../components/button";
+@use "../components/input";
